@@ -11,5 +11,5 @@ prices = {
 }
 print(prices.values())
 print(prices.keys())
-min_prices = min(zip(prices.values(), prices.keys()))
+min_prices = min(zip(prices.values(), prices.keys()))                #zip创建了一个只能访问一次的迭代器
 print(min_prices)
